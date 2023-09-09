@@ -4,12 +4,6 @@ const routes = require('./routes');
 // import sequelize connection
 const sequelize = require('./config/connection');
 
-// import models to sync tables with database
-const Category = require('./models/Category');
-const Product = require('./models/Product');
-const ProductTag = require('./models/ProductTag');
-const Tag = require('./models/Tag');
-
 // initialize an instance of Express.js
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -22,7 +16,7 @@ app.use(routes);
 
 // sync sequelize models to the database, then turn on the server
 // force true to drop/recreate table(s) on every sync
-sequelize.sync({ force: true }).then(() => {
+sequelize.sync({ force: false }).then(() => {
   app.listen(PORT, () => console.log(`App listening on port ${PORT}!`));
 });
 

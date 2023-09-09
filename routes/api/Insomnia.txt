@@ -1,0 +1,20 @@
+Insomnia
+    { HTTP headers, data as JSON, other bits and bobs}
+    
+    =>
+
+express
+    receive HTTP request on URL and port
+        { HTTP headers, data as JSON, other bits and bobs}
+    Middleware processes everything
+        { HTTP method, endpoint hit, body as JSON }
+    Middleware decides where to send it based on method and endpoint
+        => GET and /products => product-routes.js/GET('/products')
+    Controller
+        runs, returns data
+
+    =>
+
+Insomnia
+    {HTTP headers, any data }
+    display all the stuff
