@@ -1,5 +1,3 @@
-# ecommerce-back-end
-
 # Social Media Back-End
 
   [![License](https://img.shields.io/badge/License-MIT-orange.svg)](https://choosealicense.com/licenses/mit/)
