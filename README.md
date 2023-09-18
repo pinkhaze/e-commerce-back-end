@@ -31,7 +31,7 @@
       git clone git@github.com:pinkhaze/e-commerce-back-end
   ```
 
-  3. In your code editor of choice, navigate to the `e-commerce-back-end` repository
+  3. In your code editor of choice, navigate to the `e-commerce-back-end` directory
 
   4. Open a new terminal and type the following command to initialize a new Node project:
 
