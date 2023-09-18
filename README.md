@@ -39,7 +39,7 @@
       npm init -y
   ```
 
-  5. Type the following command to install the `express`, `dotenv`, `mysql2` and `sequelize` packages:
+  5. Type the following commands to install the `express`, `dotenv`, `mysql2` and `sequelize` packages:
 
   ```bash
       npm i express
