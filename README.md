@@ -74,7 +74,7 @@
 
   ## Usage
 
-  [Social Media Back End Walk-Through.webm](https://github.com/pinkhaze/social-media-back-end/assets/55771228/991e4c13-8340-4096-845d-a6d79546ff66)
+  [E-Commerce Back-End Video Walk-Through](https://github.com/pinkhaze/e-commerce-back-end/assets/55771228/1b9e9a5c-2ab9-4797-8c80-8dc4427d65d7)
 
   ## Credits
 
